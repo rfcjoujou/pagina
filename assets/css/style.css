@@ -3,7 +3,7 @@ body {
 
 
 }
-
+/* Menu que tem os itens de opções */
 #menunav {
 
 	width:100%;
@@ -18,6 +18,8 @@ body {
 	padding-right:20px;
 	padding-left: 20px;
 }
+
+/* Topo de login e rede social */
 .topo {
 	width:100%;
 	height:30px;
@@ -79,20 +81,26 @@ body {
 } Seria outro tipo de tematica para aplicar 100% na imagem so com uma*/
 
 /* Seria 2 duas imagens cada uma 50% */
+.slide2 {
+	margin-left:-15px;
+	float:left;
+}
 .slide2 img{
 	margin-top:-5px;
 	height:655px;
-	width:700px;
+	
+	max-width:1400px;	
+	margin-left:0px;
 	
 }
 .imagemseparada img{
 	margin-top:0px;
-	
-	width:700px;
+	margin-left:20px;
 	height:652px;
 	background-color:red;
 	
 }
+
 
 /* Botão de busca, e area de busca */
 
@@ -107,3 +115,5 @@ body {
 .form-control {
 	max-width:130px;
 }
+
+/* Conteúdo de produtos/venda */
