@@ -93,7 +93,17 @@ body {
 	background-color:red;
 	
 }
-.margen {
-	width:700px;
-	height:655px;
+
+/* Botão de busca, e area de busca */
+
+.search-input-form {
+	background-color:#7b2b3e;
+	border:0;
+
+}
+.search-input-form img{
+	width:25px;
+}
+.form-control {
+	max-width:130px;
 }
