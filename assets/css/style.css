@@ -5,6 +5,7 @@ body {
 }
 
 #menunav {
+
 	width:100%;
 	background-color:#7b2b3e;
 	background-image: linear-gradient(to left, #7b2b3e, #491b26);
@@ -65,8 +66,34 @@ body {
 	background-color:#534347;
 }
 
-/* Aplicação do slide show 
-.slideshowarea {
- QUERIA APLICAR UMA ALTURA PARA QUE A IMAGEM NÃO SAISSE
+/* Para o slideshow 
+.slideshowExemplo {
+	max-width:100%;
+	width:1040px;
+}
 
-} */
+.carousel-inner img div {
+	width:1040px;
+	max-width:100%;
+	height:800px;
+} Seria outro tipo de tematica para aplicar 100% na imagem so com uma*/
+
+/* Seria 2 duas imagens cada uma 50% */
+.slide2 img{
+	margin-top:-5px;
+	height:655px;
+	width:700px;
+	
+}
+.imagemseparada img{
+	margin-top:0px;
+	
+	width:700px;
+	height:652px;
+	background-color:red;
+	
+}
+.margen {
+	width:700px;
+	height:655px;
+}
