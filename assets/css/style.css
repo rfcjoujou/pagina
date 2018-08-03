@@ -1,7 +1,6 @@
 body {
 	margin:0;
 
-
 }
 /* Menu que tem os itens de opções */
 #menunav {
@@ -96,8 +95,8 @@ body {
 .imagemseparada img{
 	margin-top:0px;
 	margin-left:20px;
-	height:652px;
-	background-color:red;
+	height:496px;
+	
 	
 }
 
@@ -116,4 +115,125 @@ body {
 	max-width:130px;
 }
 
-/* Conteúdo de produtos/venda */
+/* Conteúdo de produtos/venda, imagem grande */
+
+#linhasub {
+	display:flex;
+	background-color:#f8b2b2;
+	justify-content:center;
+	margin-top:5px;
+}
+#linhasub2 {
+	display:flex;
+	background-color:#f8b2b2;
+	justify-content:center;
+	margin-top:0px;
+
+}
+#Subtitulo {
+	display:flex;
+	height:38px;
+	line-height:38px;
+	font-weight: normal;
+	letter-spacing:2px;
+	
+}
+#Subtitulo h4 {
+	font-size:32px;
+
+}
+.fotoprincipal img {
+	width:600px;
+	height:500px;
+	margin-left:80px;			
+}
+
+/* O retangulo que contém todas os itens de venda */
+.compratot {
+	background-color:green;
+	
+}
+.quadradocompra {
+	width:100%;
+	max-width:1400px;
+	height:450px;
+	margin:0px;
+	display:flex;
+	justify-content:center;			
+}
+
+/* Imagem pequenas de compra  */
+.conteudo {
+	height:420px;
+	width:300px;
+	margin-top:8px;
+	margin-left:10px;
+	margin-right:10px;
+	display:inline-block;
+	justify-content:space-between;
+
+	
+
+}
+
+/* Div onde fica o botão */
+.produtomenor {
+	height:25px;
+	
+	display:flex;
+	align-items:bottom;
+	
+
+
+}
+
+/* Botão de compra em baixo */
+#compra {
+	width:100%;
+	height:25px;
+	display:flex;
+	justify-content:center;
+	line-height:0px;
+	background-color:;
+	font-size:20px;
+	text-transform:uppercase;
+	font-family: "ArquitectaBold"
+
+} 
+.quadradocompra2 {
+	width:100%;
+	max-width:1400px;
+	height:500px;
+	margin:0px;
+	display:flex;
+	justify-content:center	
+}
+
+.comprando {
+	width:100%;
+	max-width:1400px;
+	height:500px;
+	display:flex;
+	justify-content:center;
+	background-color:red;
+
+}
+.roupa {
+	height:420px;
+	width:200px;
+	margin-left:10px;
+	margin-right:10px;
+	display:inline-block;
+	justify-content:space-between;
+
+}
+
+/* Agora agente vai fazer as bordas das imagens maiores */
+.borda {
+	background-color:black;
+	height:15px;
+	display:flex;
+	justify-content:center;
+	margin-bottom:-1px;
+	
+}
