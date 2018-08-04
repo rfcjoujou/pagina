@@ -1,5 +1,14 @@
+/*Fontes para o site */
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+@import url('https://fonts.googleapis.com/css?family=Modern+Antiqua');
+
+
 body {
 	margin:0;
+	font-family:sans-serif, Verdana;
+	background-color:#f8b2b2;
 
 }
 /* Menu que tem os itens de opções */
@@ -12,7 +21,15 @@ body {
 } /* Menu com itens importante*/
 .navbar-brand {
 	margin-right:150px;
+	font-family: 'Satisfy', cursive;
+	font-size:25px;
 } 
+#logonav {
+
+	background: -webkit-linear-gradient(#d8eb58, #d56521);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #navbarMenu .navbar-nav a {
 	padding-right:20px;
 	padding-left: 20px;
@@ -118,6 +135,7 @@ body {
 /* Conteúdo de produtos/venda, imagem grande */
 
 #linhasub {
+
 	display:flex;
 	background-color:#f8b2b2;
 	justify-content:center;
@@ -125,9 +143,21 @@ body {
 }
 #linhasub2 {
 	display:flex;
-	background-color:#f8b2b2;
+	background-color:#f8b2b2; 
 	justify-content:center;
 	margin-top:0px;
+	
+}
+#Subtitulo2 {
+	display:flex;
+	height:10px;
+	
+}
+.formatacao {
+	display:flex;
+	justify-content:center;
+	width:1260px;
+	background-color:#ece8e8;
 
 }
 #Subtitulo {
@@ -136,6 +166,7 @@ body {
 	line-height:38px;
 	font-weight: normal;
 	letter-spacing:2px;
+	font-family:'Modern Antiqua', cursive;
 	
 }
 #Subtitulo h4 {
@@ -195,9 +226,9 @@ body {
 	justify-content:center;
 	line-height:0px;
 	background-color:;
-	font-size:20px;
+	font-size:21px;
 	text-transform:uppercase;
-	font-family: "ArquitectaBold"
+	font-family: 'PT Sans Narrow', sans-serif;
 
 } 
 .quadradocompra2 {
