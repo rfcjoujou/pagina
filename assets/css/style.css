@@ -13,12 +13,18 @@ body {
 }
 /* Menu que tem os itens de opções */
 #menunav {
+	z-index:10001;
+	position:fixed;
 	height:50px;
-	width:100%;
+	width:100%;	
 	background-color:#7b2b3e;
 	background-image: linear-gradient(to left, #7b2b3e, #491b26);
 
-} /* Menu com itens importante*/
+} 
+/* Para quando rolar o menu o menu fique em cima */
+
+
+/* Menu com itens importante*/
 .navbar-brand {
 	margin-right:150px;
 	font-family: 'Satisfy', cursive;
@@ -104,9 +110,10 @@ body {
 .slide2 {
 	margin-left:-15px;
 	float:left;
+
 }
 .slide2 img{
-	margin-top:-5px;
+	margin-top:45px;
 	height:655px;
 	
 	max-width:1400px;	
@@ -114,9 +121,9 @@ body {
 	
 }
 .imagemseparada img{
-	margin-top:0px;
+	margin-top:48.5px;
 	margin-left:20px;
-	height:496px;
+	height:496.5px;
 	
 	
 }
@@ -263,7 +270,7 @@ body {
 
 /* Agora agente vai fazer as bordas das imagens maiores */
 .borda {
-	background-color:black;
+	
 	height:15px;
 	display:flex;
 	justify-content:center;
@@ -305,13 +312,14 @@ body {
 .primeiroitemrodape
 .rodapetitulo {
 	margin-right:5px;
-	font-size:18px;
+	
 }
 /* TItulo de cima no rodapé */
 .tituloFooter {
 	margin-top:10px;
 	text-transform:uppercase;
 	margin-bottom:2px;
+
 }
 
 /* Para enviar notificação */
@@ -323,7 +331,8 @@ body {
 }
 /* Menu do footer principal Aplicação de cor*/
 #footerint {
-	background-image: linear-gradient(to left, #0f0e0e, #0c0707);
+	background-image: linear-gradient(to left, #0f0e0e, #0e0909);
+
 }
 
 /* Coisa do itens do footer 2 aba */
@@ -346,5 +355,21 @@ body {
 }
 .footersubitem {
 	width:240px;
+}
+/* Parte de endereço e email */
+#enderecoint {
+	background-color:#f8b2b2;
+}
+.endereco {
+	color:#403d3d;
+	font-size:13px;
+	margin-bottom:0px;
+
+}
+/* Linha de email */
+.email {
+	color:#403d3d;
+	font-size:13px;
+	margin-top:-15px;
 }
 
