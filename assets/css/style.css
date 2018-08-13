@@ -8,7 +8,7 @@
 body {
 	margin:0;
 	font-family:sans-serif, Verdana;
-	background-color:#f8b2b2;
+	background-color:#f6b8b8;
 
 }
 /* Menu que tem os itens de opções */
@@ -148,14 +148,14 @@ body {
 #linhasub {
 
 	display:flex;
-	background-color:#f8b2b2;
+	background-color:#f6b8b8;
 	justify-content:center;
 	margin-top:10px;
 	margin-bottom:4px;
 }
 #linhasub2 {
 	display:flex;
-	background-color:#f8b2b2; 
+	background-color:#f6b8b8; 
 	justify-content:center;
 	margin-top:0px;
 	margin-bottom:5px;
@@ -170,7 +170,7 @@ body {
 	display:flex;
 	justify-content:center;
 	width:1260px;
-	background-color:#ece8e8;
+	background-color:#f1dada;
 
 }
 #Subtitulo {

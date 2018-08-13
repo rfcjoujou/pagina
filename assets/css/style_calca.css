@@ -1,0 +1,105 @@
+/*Fontes para o site */
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	margin:0;
+	font-family:sans-serif, Verdana;
+	background-color:#f6b8b8;
+	
+}
+/* Menu que tem os itens de opções */
+#menunav {
+	z-index:10001;
+	position:fixed;
+	height:50px;
+	width:100%;	
+	background-color:#7b2b3e;
+	background-image: linear-gradient(to left, #7b2b3e, #491b26);
+
+} 
+/* Para quando rolar o menu o menu fique em cima */
+
+
+/* Menu com itens importante*/
+.navbar-brand {
+	margin-right:150px;
+	font-family: 'Satisfy', cursive;
+	font-size:25px;
+} 
+#logonav {
+
+	background: -webkit-linear-gradient(#d8eb58, #d56521);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#navbarMenu .navbar-nav a {
+	padding-right:20px;
+	padding-left: 20px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Topo de login e rede social */
+.topo {
+	width:100%;
+	height:30px;
+	background-color:#35141c;
+	background-image: linear-gradient(to right, #35141c, #36242a);
+}
+.topint {
+	
+	max-width:1040px;
+	margin:auto;
+	font-size:16px;
+}
+.topoleft {
+	float:right;
+}
+.acesso {
+	font-size:18px;
+	margin-right:42px;
+	line-height:30px;
+	
+	color:#FFF;
+}
+.toporight {
+	float:left;
+	
+	margin-top:0px;
+	height:26px;
+	margin-left:10px;
+
+}
+.toporight ul {
+	float:left;
+	margin:auto;
+	line-height:30px;
+	padding-right:4px;
+	margin-left:-34px;
+}
+.toporight a {
+	float:left;
+}
+.toporight ul img {
+	
+	padding-right:5px;
+} /* Aqui seria o top de cima onde terá rede social e login */
+.toporight-rede ul a:hover {
+	background-color:#534347;
+}
+/* Botão de busca, e area de busca */
+
+.search-input-form {
+	background-color:#7b2b3e;
+	border:0;
+
+}
+.search-input-form img{
+	width:25px;
+}
+.form-control {
+	max-width:130px;
+}
