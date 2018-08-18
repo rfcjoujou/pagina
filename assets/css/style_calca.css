@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+
 body {
 	margin:0;
 	font-family:sans-serif, Verdana;
@@ -104,15 +105,138 @@ body {
 .form-control {
 	max-width:130px;
 }
-/* Ciração do rodapé */
+
+/* Conteúdo */
 
 
-/* Agente so vai aplicar uma imagem para que o conteudo não fique colado */
+/* Menu de Tamanho */	
+.menu_tamanho {
+	width:420px;
+	height:500px;
+	background-color:#8ddce1;
+	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);	*/
+	background-image:linear-gradient(to right, #f6b4b4, #f16c6c);
+	float:left;
+	box-shadow: 0px 0px 1px 0.6px black;
+	border-radius:1px;
 
-/* TItulo de cima no rodapé */
-.rowint {
-	width:100%;
 }
+.menu_tamanho ul li {
+	background-color:#8ddce1;
+	background-image:linear-gradient(to right, #f6b4b4,#f16c6c );
+	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);*/
+	box-shadow: 0.2px 0.2px 0.2px 0.2px black;	
+
+
+}
+/* Para fica com uma cor no botão de tamanho das calças */
+.menu_tamanho ul li a {
+	color:#5d6060;	
+}
+
+
+
+/* Esse é o Itens para comprar*/
+.menu_compra {
+	
+	height:500px;
+	width:880px;
+	margin-top:15px;
+	margin-left:30px;
+	
+}
+/* Essa é a configuaração da imagem */
+
+.menu_compra img{
+
+	width:360px;
+	height:460px;
+}
+
+/* Botão de comprar */
+.menu_botaoint {
+	display:flex;
+	width:360px;
+	height:25px;
+	justify-content:center;
+ 
+    
+}
+
+.botaocompra {
+	font-size:20px;
+	width:100%;
+	line-height:13px;
+	text-transform:uppercase;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+/*Parte do conteudo em baixo de tamanho
+* Vai ter um quadrado do lado com uma imagem maior para seguir o tamanho do quadrado de tamanho
+* e do lado as imagens de roupas p/ comprar.
+*/
+/*Espaço*/
+.espaco {
+	margin-top:0px;
+	width:1350px;
+	
+	height:15px;
+}
+/* Conteúdo principal de venda quadrado gigante */
+.counteudo_gigante {
+	/* Menu de Tamanho */	
+
+	width:420px;
+	height:450px;
+	background-color:#8ddce1;
+	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);	*/
+	background-image:linear-gradient(to right, #f6b4b4, #ef7878);
+	float:left;
+}
+.counteudo_gigante ul li {
+	background-color:#8ddce1;
+	background-image:linear-gradient(to right, #f6b4b4,#f16c6c );
+	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);*/	
+	box-shadow: 0px 0px 1px 0.6px black;
+}
+.counteudo_gigante ul li img {
+	border-radius:2px;
+}
+.conteudo_gigatne ul li button {
+	font-size:20px;
+	line-height:13px;
+	text-transform:uppercase;
+	font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.conteudo_gigatne ul li button:hover {
+	background-color:red;
+}
+
+
+
+
+
+
+
+
+/* Ciração do rodapé */
+.rodape {
+	margin-top:30px;
+	width:100%;
+	height:500px;
+	background-color:red;
+	padding-right:2.5px;
+	padding-left:2.5px;
+}
+/* Agente so vai aplicar uma imagem para que o conteudo não fique colado */
+.primeiroitemrodape
+.rodapetitulo {
+	margin-right:5px;
+	
+}
+/* TItulo de cima no rodapé */
 .tituloFooter {
 	margin-top:10px;
 	text-transform:uppercase;
@@ -172,65 +296,5 @@ body {
 }
 
 
-/* Conteúdo */
 
-
-/* Menu de Tamanho */	
-.menu_tamanho {
-	width:420px;
-	height:500px;
-	background-color:#8ddce1;
-	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);	*/
-	background-image:linear-gradient(to right, #f6b8b8, #f59999);
-	float:left;
-
-}
-.menu_tamanho ul li {
-	background-color:#8ddce1;
-	background-image:linear-gradient(to right, #f6b8b8,#f59999 );
-	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);*/
-
-
-}
-/* Para fica com uma cor no botão de tamanho das calças */
-.menu_tamanho ul li a {
-	color:#5d6060;	
-}
-
-
-
-/* Esse é o Itens para comprar*/
-.menu_compra {
-	
-	height:500px;
-	width:880px;
-	margin-top:15px;
-	margin-left:30px;
-	
-}
-/* Essa é a configuaração da imagem */
-
-.menu_compra img{
-
-	width:360px;
-	height:460px;
-}
-
-/* Botão de comprar */
-.menu_botaoint {
-	display:flex;
-	width:360px;
-	height:25px;
-	justify-content:center;
- 
-    
-}
-
-.botaocompra {
-	font-size:20px;
-	width:100%;
-	line-height:13px;
-	text-transform:uppercase;
-	font-family: 'PT Sans Narrow', sans-serif;
-}
 
