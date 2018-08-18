@@ -115,7 +115,7 @@ body {
 	height:500px;
 	background-color:#8ddce1;
 	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);	*/
-	background-image:linear-gradient(to right, #f6b4b4, #f16c6c);
+	background-image:linear-gradient(to right, #f6b4b4, #ef7676);
 	float:left;
 	box-shadow: 0px 0px 1px 0.6px black;
 	border-radius:1px;
@@ -123,7 +123,7 @@ body {
 }
 .menu_tamanho ul li {
 	background-color:#8ddce1;
-	background-image:linear-gradient(to right, #f6b4b4,#f16c6c );
+	background-image:linear-gradient(to right, #f6b4b4,#ef7676 );
 	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);*/
 	box-shadow: 0.2px 0.2px 0.2px 0.2px black;	
 
@@ -188,20 +188,22 @@ body {
 	/* Menu de Tamanho */	
 
 	width:420px;
-	height:450px;
+	height:422px;
 	background-color:#8ddce1;
 	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);	*/
-	background-image:linear-gradient(to right, #f6b4b4, #ef7878);
+	background-image:linear-gradient(to right, #f6b4b4, #ef7676);
 	float:left;
 }
 .counteudo_gigante ul li {
 	background-color:#8ddce1;
-	background-image:linear-gradient(to right, #f6b4b4,#f16c6c );
+	background-image:linear-gradient(to right, #f6b4b4,#ef7676 );
 	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);*/	
 	box-shadow: 0px 0px 1px 0.6px black;
 }
 .counteudo_gigante ul li img {
 	border-radius:2px;
+	width:420px;
+	height:422px;
 }
 .conteudo_gigatne ul li button {
 	font-size:20px;
@@ -213,7 +215,17 @@ body {
 .conteudo_gigatne ul li button:hover {
 	background-color:red;
 }
+.quadrado_compras_gigante {
+	height:500px;
+	width:880px;
+	margin-left:30px;
+	margin-top:19.5px;
 
+}
+.quadrado_compras_gigante img {
+	width:360px;
+	height:460px;
+}
 
 
 
