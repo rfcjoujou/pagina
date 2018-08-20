@@ -230,9 +230,10 @@ body {
 * primeiro terá um quadrado grande que vai ter os itens dentro
 */
 .quadrado_de_conteudo {
-	max-width:1350px;
 	width:100%;
-	height:700px;
+	height:100%;
+
+	/*height:1000px;*/
 	margin-top:18px;
 	background-image:linear-gradient(to right, #f6b4b4,#ef7676 );
 
@@ -243,6 +244,8 @@ body {
 	display:inline-block;
 	margin-left:32px;
 	margin-right:20px;
+	margin-top:15px;
+	
 	}
 .quadrado_de_compra img {
 
@@ -253,8 +256,9 @@ body {
 	height:460px;
 	width:360px;
 	display:inline-block;
-	
+	margin-top:15px;
 	margin-left:70px;
+
 }
 .quadrado_de_compra2 img {
 	
@@ -270,10 +274,12 @@ body {
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', sans-serif
 }
-
-
-
-
+/* Será a bordar para que fique com design melhor nosso menu de comprar gigante*/
+.borda_gigante_de_compras {
+	height:10px;
+	width:100%;
+	background-image:linear-gradient(to right, #f6b4b4,#ef7676 );
+}
 
 
 
