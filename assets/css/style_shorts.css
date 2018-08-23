@@ -1,0 +1,365 @@
+/*Fontes para o site */
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body {
+	margin:0;
+	font-family:sans-serif, Verdana;
+	background-color:#f6b8b8;
+	
+}
+/* Menu que tem os itens de opções */
+#menunav {
+	z-index:10001;
+	position:fixed;
+	height:50px;
+	width:100%;	
+	background-color:#7b2b3e;
+	background-image: linear-gradient(to left, #7b2b3e, #491b26);
+
+} 
+/* Para quando rolar o menu o menu fique em cima */
+
+
+/* Menu com itens importante*/
+.navbar-brand {
+	margin-right:150px;
+	font-family: 'Satisfy', cursive;
+	font-size:25px;
+} 
+#logonav {
+
+	background: -webkit-linear-gradient(#d8eb58, #d56521);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#navbarMenu .navbar-nav a {
+	padding-right:20px;
+	padding-left: 20px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Topo de login e rede social */
+.topo {
+	width:100%;
+	height:30px;
+	background-color:#35141c;
+	background-image: linear-gradient(to right, #35141c, #36242a);
+}
+.topint {
+	
+	max-width:1040px;
+	margin:auto;
+	font-size:16px;
+}
+.topoleft {
+	float:right;
+}
+.acesso {
+	font-size:18px;
+	margin-right:42px;
+	line-height:30px;
+	
+	color:#FFF;
+}
+.toporight {
+	float:left;
+	
+	margin-top:0px;
+	height:26px;
+	margin-left:10px;
+
+}
+.toporight ul {
+	float:left;
+	margin:auto;
+	line-height:30px;
+	padding-right:4px;
+	margin-left:-34px;
+}
+.toporight a {
+	float:left;
+}
+.toporight ul img {
+	
+	padding-right:5px;
+} /* Aqui seria o top de cima onde terá rede social e login */
+.toporight-rede ul a:hover {
+	background-color:#534347;
+}
+/* Botão de busca, e area de busca */
+
+.search-input-form {
+	background-color:#7b2b3e;
+	border:0;
+
+}
+.search-input-form img{
+	width:25px;
+}
+.form-control {
+	max-width:130px;
+}
+
+/* Conteúdo */
+
+
+/* Menu de Tamanho */	
+.menu_tamanho {
+	width:420px;
+	height:500px;
+	background-color:#8ddce1;
+	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);	*/
+	background-image:linear-gradient(to right, #f6b4b4, #ef7676);
+	float:left;
+	box-shadow: 0px 0px 1px 0.6px black;
+	border-radius:1px;
+
+}
+.menu_tamanho ul li {
+	background-color:#8ddce1;
+	background-image:linear-gradient(to right, #f6b4b4,#ef7676 );
+	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);*/
+	box-shadow: 0.2px 0.2px 0.2px 0.2px black;	
+
+
+}
+/* Para fica com uma cor no botão de tamanho das calças */
+.menu_tamanho ul li a {
+	color:#5d6060;	
+}
+
+
+
+/* Esse é o Itens para comprar*/
+.menu_compra {
+	
+	height:500px;
+	width:880px;
+	margin-top:15px;
+	margin-left:30px;
+	
+}
+/* Essa é a configuaração da imagem */
+
+.menu_compra img{
+
+	width:360px;
+	height:460px;
+}
+
+/* Botão de comprar */
+.menu_botaoint {
+	display:flex;
+	width:360px;
+	height:25px;
+	justify-content:center;
+ 
+    
+}
+
+.botaocompra {
+	font-size:20px;
+	width:100%;
+	line-height:13px;
+	text-transform:uppercase;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+/*Parte do conteudo em baixo de tamanho
+* Vai ter um quadrado do lado com uma imagem maior para seguir o tamanho do quadrado de tamanho
+* e do lado as imagens de roupas p/ comprar.
+*/
+/*Espaço*/
+.espaco {
+	margin-top:0px;
+	width:1350px;
+	
+	height:15px;
+}
+/* Conteúdo principal de venda quadrado gigante */
+.counteudo_gigante {
+	/* Menu de Tamanho */	
+
+	width:420px;
+	height:422px;
+	background-color:#8ddce1;
+	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);	*/
+	background-image:linear-gradient(to right, #f6b4b4, #ef7676);
+	float:left;
+}
+.counteudo_gigante ul li {
+	background-color:#8ddce1;
+	background-image:linear-gradient(to right, #f6b4b4,#ef7676 );
+	/*background-image:linear-gradient(to right, #6dd8e0, #74d9e1);*/	
+	box-shadow: 0px 0px 1px 0.6px black;
+}
+.counteudo_gigante ul li img {
+	border-radius:2px;
+	width:420px;
+	height:422px;
+}
+.conteudo_gigatne ul li button {
+	font-size:20px;
+	line-height:13px;
+	text-transform:uppercase;
+	font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.conteudo_gigatne ul li button:hover {
+	background-color:red;
+}
+.quadrado_compras_gigante {
+	height:500px;
+	width:880px;
+	margin-left:30px;
+	margin-top:19.5px;
+
+}
+.quadrado_compras_gigante img {
+	width:360px;
+	height:460px;
+}
+/* Esse será o conteúdo que ficara com a maior itens de conteúdo
+* primeiro terá um quadrado grande que vai ter os itens dentro
+*/
+.quadrado_de_conteudo {
+	width:100%;
+	height:100%;
+
+	/*height:1000px;*/
+	margin-top:18px;
+	background-image:linear-gradient(to right, #f6b4b4,#ef7676 );
+
+
+}
+.quadrado_de_compra {
+	height:460px;
+	display:inline-block;
+	margin-left:32px;
+	margin-right:20px;
+	margin-top:15px;
+	
+	}
+.quadrado_de_compra img {
+
+	width:360px;
+	height:460px;
+} 
+.quadrado_de_compra2 {
+	height:460px;
+	width:360px;
+	display:inline-block;
+	margin-top:15px;
+	margin-left:70px;
+
+}
+.quadrado_de_compra2 img {
+	
+	width:360px;
+	height:460px;
+} 
+/* Será o botão dos itens maiores*/
+.bot_compra_grande {
+	width:360px;
+	height:25px;
+	font-size: 20px;
+    line-height: 13px;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+/* Será a bordar para que fique com design melhor nosso menu de comprar gigante*/
+.borda_gigante_de_compras {
+	height:10px;
+	width:100%;
+	background-image:linear-gradient(to right, #f6b4b4,#ef7676 );
+}
+
+
+
+
+
+
+/* Ciração do rodapé */
+.rodape {
+	margin-top:30px;
+	width:100%;
+	height:500px;
+	background-color:red;
+	padding-right:2.5px;
+	padding-left:2.5px;
+}
+/* Agente so vai aplicar uma imagem para que o conteudo não fique colado */
+.primeiroitemrodape
+.rodapetitulo {
+	margin-right:5px;
+	
+}
+/* TItulo de cima no rodapé */
+.tituloFooter {
+	margin-top:10px;
+	text-transform:uppercase;
+	margin-bottom:2px;
+
+}
+
+/* Para enviar notificação */
+#assinatura {
+	width:170px;
+	height:32px;
+	font-size:12px;
+
+}
+/* Menu do footer principal Aplicação de cor*/
+#footerint {
+	background-image: linear-gradient(to left, #0f0e0e, #0e0909);
+
+}
+
+/* Coisa do itens do footer 2 aba */
+#itemfooter {
+	margin-top:-10px;
+	font-size:15px;
+}
+#itemfooterp {
+	
+	font-size:15px;
+}
+
+#itemfooter a:hover {
+	background-color:#6f6b6b;
+	
+}
+#itemfooterp a:hover {
+	background-color:#6f6b6b;
+	
+}
+.footersubitem {
+	width:240px;
+}
+/* Parte de endereço e email */
+#enderecoint {
+	background-color:#f8b2b2;
+}
+.endereco {
+	color:#403d3d;
+	font-size:13px;
+	margin-bottom:0px;
+
+}
+/* Linha de email */
+.email {
+	color:#403d3d;
+	font-size:13px;
+	margin-top:-15px;
+}
+
+
+
+
